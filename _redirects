@@ -1,0 +1,13 @@
+﻿# Next.js static assets
+/_next/static/*  /_next/static/:splat  200
+/assets/*  /assets/:splat  200
+/*.js  /:splat.js  200
+/*.css  /:splat.css  200
+/*.png  /:splat.png  200
+/*.svg  /:splat.svg  200
+/*.ico  /:splat.ico  200
+/*.txt  /:splat.txt  200
+/*.xml  /:splat.xml  200
+/*.json  /:splat.json  200
+# SPA routing
+/*  /index.html  200
