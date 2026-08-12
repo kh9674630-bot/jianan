@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "descriptions": {
+    "root": "Index file",
+    "css": "Stylesheet file",
+    "js": "Javascript file"
+  },
+  "routes": [
+    {
+      "path": "/*",
+      "collection": "index",
+      "errors": "404.html"
+    }
+  ]
+}
